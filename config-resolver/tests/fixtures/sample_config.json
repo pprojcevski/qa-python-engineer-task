@@ -1,0 +1,16 @@
+{
+  "database_host": "production-db.example.com",
+  "database_port": 5432,
+  "api_key": "prod-api-key-abc123",
+  "debug_mode": false,
+  "max_connections": 500,
+  "nested_config": {
+    "timeout_seconds": 30,
+    "retry_count": 3,
+    "feature_flags": {
+      "new_feature": true,
+      "beta_mode": false
+    }
+  },
+  "allowed_hosts": ["localhost", "example.com", "api.example.com"]
+}
