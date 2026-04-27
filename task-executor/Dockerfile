@@ -55,4 +55,4 @@ COPY --from=build --chown=worker:worker /code /code
 USER worker
 
 ENTRYPOINT []
-CMD ["uv", "run", "python", "-m", "task_executor.main"]
+CMD ["uv", "run", "python", "-m", "task_executor.executor"]
